@@ -1,0 +1,1921 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[WD] Expanded Floors</li>
+	</mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughAndesiteTile</defName>
+    <label>rough andesite tile</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughAnorthositeTile</defName>
+    <label>rough anorthosite tile</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughBasaltTile</defName>
+    <label>rough basalt tile</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughBlueschistTile</defName>
+    <label>rough blueschist tile</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughChalkTile</defName>
+    <label>rough chalk tile</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughCharnockiteTile</defName>
+    <label>rough charnockite tile</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughCreoleMarbleTile</defName>
+    <label>rough creole marble tile</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughDaciteTile</defName>
+    <label>rough dacite tile</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughDuniteTile</defName>
+    <label>rough dunite tile</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughEmperadordarkTile</defName>
+    <label>rough emperador dark tile</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughEtowahMarbleTile</defName>
+    <label>rough etowah marble tile</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughGabbroTile</defName>
+    <label>rough gabbro tile</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughGreenSchistTile</defName>
+    <label>rough greenSchist tile</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughJaspilliteTile</defName>
+    <label>rough jaspillite tile</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughLepidoliteTile</defName>
+    <label>rough lepidolite tile</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughLherzoliteTile</defName>
+    <label>rough lherzolite tile</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughLigniteTile</defName>
+    <label>rough lignite tile</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughMigmatiteTile</defName>
+    <label>rough migmatite tile</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughMonzoniteTile</defName>
+    <label>rough monzonite tile</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughObsidianTile</defName>
+    <label>rough obsidian tile</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughRhyoliteTile</defName>
+    <label>rough rhyolite tile</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughScoriaTile</defName>
+    <label>rough scoria tile</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughSerpentiniteTile</defName>
+    <label>rough serpentinite tile</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughSiltstoneTile</defName>
+    <label>rough siltstone tile</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughSoviteTile</defName>
+    <label>rough sovite tile</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDRoughStoneTileBase">
+    <defName>WDRoughThometzekiteTile</defName>
+    <label>rough thometzekite tile</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDAndesiteTile</defName>
+    <label>andesite tile</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDAnorthositeTile</defName>
+    <label>anorthosite tile</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDBasaltTile</defName>
+    <label>basalt tile</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDBlueschistTile</defName>
+    <label>blueschist tile</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDChalkTile</defName>
+    <label>chalk tile</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDCharnockiteTile</defName>
+    <label>charnockite tile</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDCreoleMarbleTile</defName>
+    <label>creole marble tile</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDDaciteTile</defName>
+    <label>dacite tile</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDDuniteTile</defName>
+    <label>dunite tile</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDEmperadordarkTile</defName>
+    <label>emperador dark tile</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDEtowahMarbleTile</defName>
+    <label>etowah marble tile</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDGabbroTile</defName>
+    <label>gabbro tile</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDGreenSchistTile</defName>
+    <label>greenSchist tile</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDJaspilliteTile</defName>
+    <label>jaspillite tile</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDLepidoliteTile</defName>
+    <label>lepidolite tile</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDLherzoliteTile</defName>
+    <label>lherzolite tile</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDLigniteTile</defName>
+    <label>lignite tile</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDMigmatiteTile</defName>
+    <label>migmatite tile</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDMonzoniteTile</defName>
+    <label>monzonite tile</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDObsidianTile</defName>
+    <label>obsidian tile</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDRhyoliteTile</defName>
+    <label>rhyolite tile</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDScoriaTile</defName>
+    <label>scoria tile</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDSerpentiniteTile</defName>
+    <label>serpentinite tile</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDSiltstoneTile</defName>
+    <label>siltstone tile</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDSoviteTile</defName>
+    <label>sovite tile</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStoneTileBase">
+    <defName>WDThometzekiteTile</defName>
+    <label>thometzekite tile</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckAndesiteTile</defName>
+    <label>check andesite tile</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckAnorthositeTile</defName>
+    <label>check anorthosite tile</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckBasaltTile</defName>
+    <label>check basalt tile</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckBlueschistTile</defName>
+    <label>check blueschist tile</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckChalkTile</defName>
+    <label>check chalk tile</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckCharnockiteTile</defName>
+    <label>check charnockite tile</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckCreoleMarbleTile</defName>
+    <label>check creole marble tile</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckDaciteTile</defName>
+    <label>check dacite tile</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckDuniteTile</defName>
+    <label>check dunite tile</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckEmperadordarkTile</defName>
+    <label>check emperador dark tile</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckEtowahMarbleTile</defName>
+    <label>check etowah marble tile</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckGabbroTile</defName>
+    <label>check gabbro tile</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckGreenSchistTile</defName>
+    <label>check greenSchist tile</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckJaspilliteTile</defName>
+    <label>check jaspillite tile</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckLepidoliteTile</defName>
+    <label>check lepidolite tile</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckLherzoliteTile</defName>
+    <label>check lherzolite tile</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckLigniteTile</defName>
+    <label>check lignite tile</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckMigmatiteTile</defName>
+    <label>check migmatite tile</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckMonzoniteTile</defName>
+    <label>check monzonite tile</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckObsidianTile</defName>
+    <label>check obsidian tile</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckRhyoliteTile</defName>
+    <label>check rhyolite tile</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckScoriaTile</defName>
+    <label>check scoria tile</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckSerpentiniteTile</defName>
+    <label>check serpentinite tile</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckSiltstoneTile</defName>
+    <label>check siltstone tile</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckSoviteTile</defName>
+    <label>check sovite tile</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneTileBase">
+    <defName>WDCheckThometzekiteTile</defName>
+    <label>check thometzekite tile</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicAndesiteFloor</defName>
+    <label>mosaic andesite floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicAnorthositeFloor</defName>
+    <label>mosaic anorthosite floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicBasaltFloor</defName>
+    <label>mosaic basalt floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicBlueschistFloor</defName>
+    <label>mosaic blueschist floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicChalkFloor</defName>
+    <label>mosaic chalk floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicCharnockiteFloor</defName>
+    <label>mosaic charnockite floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicCreoleMarbleFloor</defName>
+    <label>mosaic creole marble floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicDaciteFloor</defName>
+    <label>mosaic dacite floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicDuniteFloor</defName>
+    <label>mosaic dunite floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicEmperadordarkFloor</defName>
+    <label>mosaic emperador dark floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicEtowahMarbleFloor</defName>
+    <label>mosaic etowah marble floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicGabbroFloor</defName>
+    <label>mosaic gabbro floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicGreenSchistFloor</defName>
+    <label>mosaic greenSchist floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicJaspilliteFloor</defName>
+    <label>mosaic jaspillite floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicLepidoliteFloor</defName>
+    <label>mosaic lepidolite floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicLherzoliteFloor</defName>
+    <label>mosaic lherzolite floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicLigniteFloor</defName>
+    <label>mosaic lignite floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicMigmatiteFloor</defName>
+    <label>mosaic migmatite floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicMonzoniteFloor</defName>
+    <label>mosaic monzonite floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicObsidianFloor</defName>
+    <label>mosaic obsidian floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicRhyoliteFloor</defName>
+    <label>mosaic rhyolite floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicScoriaFloor</defName>
+    <label>mosaic scoria floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicSerpentiniteFloor</defName>
+    <label>mosaic serpentinite floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicSiltstoneFloor</defName>
+    <label>mosaic siltstone floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicSoviteFloor</defName>
+    <label>mosaic sovite floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDMosaicStoneFloorBase">
+    <defName>WDMosaicThometzekiteFloor</defName>
+    <label>mosaic thometzekite floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckAndesiteFloor</defName>
+    <label>polished andesite floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckAnorthositeFloor</defName>
+    <label>polished anorthosite floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>2</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckBasaltFloor</defName>
+    <label>check basalt floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckBlueschistFloor</defName>
+    <label>check blueschist floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckChalkFloor</defName>
+    <label>check chalk floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckCharnockiteFloor</defName>
+    <label>check charnockite floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckCreoleMarbleFloor</defName>
+    <label>check creole marble floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckDaciteFloor</defName>
+    <label>check dacite floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckDuniteFloor</defName>
+    <label>check dunite floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckEmperadordarkFloor</defName>
+    <label>check emperador dark floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckEtowahMarbleFloor</defName>
+    <label>check etowah marble floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckGabbroFloor</defName>
+    <label>check gabbro floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckGreenSchistFloor</defName>
+    <label>check greenSchist floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckJaspilliteFloor</defName>
+    <label>check jaspillite floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckLepidoliteFloor</defName>
+    <label>check lepidolite floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckLherzoliteFloor</defName>
+    <label>check lherzolite floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckLigniteFloor</defName>
+    <label>check lignite floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckMigmatiteFloor</defName>
+    <label>check migmatite floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckMonzoniteFloor</defName>
+    <label>check monzonite floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckObsidianFloor</defName>
+    <label>check obsidian floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckRhyoliteFloor</defName>
+    <label>check rhyolite floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckScoriaFloor</defName>
+    <label>check scoria floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckSerpentiniteFloor</defName>
+    <label>check serpentinite floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckSiltstoneFloor</defName>
+    <label>check siltstone floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckSoviteFloor</defName>
+    <label>check sovite floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDCheckStoneFloorBase">
+    <defName>WDCheckThometzekiteFloor</defName>
+    <label>check thometzekite floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedAndesiteFloor</defName>
+    <label>polished andesite floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedAnorthositeFloor</defName>
+    <label>polished anorthosite floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedBasaltFloor</defName>
+    <label>polished basalt floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedBlueschistFloor</defName>
+    <label>polished blueschist floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedChalkFloor</defName>
+    <label>polished chalk floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedCharnockiteFloor</defName>
+    <label>polished charnockite floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedCreoleMarbleFloor</defName>
+    <label>polished creole marble floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedDaciteFloor</defName>
+    <label>polished dacite floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedDuniteFloor</defName>
+    <label>polished dunite floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedEmperadordarkFloor</defName>
+    <label>polished emperador dark floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedEtowahMarbleFloor</defName>
+    <label>polished etowah marble floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedGabbroFloor</defName>
+    <label>polished gabbro floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedGreenSchistFloor</defName>
+    <label>polished greenSchist floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedJaspilliteFloor</defName>
+    <label>polished jaspillite floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedLepidoliteFloor</defName>
+    <label>polished lepidolite floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedLherzoliteFloor</defName>
+    <label>polished lherzolite floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedLigniteFloor</defName>
+    <label>polished lignite floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedMigmatiteFloor</defName>
+    <label>polished migmatite floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedMonzoniteFloor</defName>
+    <label>polished monzonite floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedObsidianFloor</defName>
+    <label>polished obsidian floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedRhyoliteFloor</defName>
+    <label>polished rhyolite floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedScoriaFloor</defName>
+    <label>polished scoria floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedSerpentiniteFloor</defName>
+    <label>polished serpentinite floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedSiltstoneFloor</defName>
+    <label>polished siltstone floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>2</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedSoviteFloor</defName>
+    <label>polished sovite floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDPolishedStoneFloorBase">
+    <defName>WDPolishedThometzekiteFloor</defName>
+    <label>polished thometzekite floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDAndesitePlateFloor</defName>
+    <label>andesite plate floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDAnorthositePlateFloor</defName>
+    <label>anorthosite plate floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDBasaltPlateFloor</defName>
+    <label>basalt plate floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDBlueschistPlateFloor</defName>
+    <label>blueschist plate floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDChalkPlateFloor</defName>
+    <label>chalk plate floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDCharnockitePlateFloor</defName>
+    <label>charnockite plate floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDCreoleMarblePlateFloor</defName>
+    <label>creole marble plate floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDDacitePlateFloor</defName>
+    <label>dacite plate floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDDunitePlateFloor</defName>
+    <label>dunite plate floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDEmperadordarkPlateFloor</defName>
+    <label>emperador dark plate floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDEtowahMarblePlateFloor</defName>
+    <label>etowah marble plate floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDGabbroPlateFloor</defName>
+    <label>gabbro plate floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDGreenSchistPlateFloor</defName>
+    <label>greenSchist plate floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDJaspillitePlateFloor</defName>
+    <label>jaspillite plate floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDLepidolitePlateFloor</defName>
+    <label>lepidolite plate floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDLherzolitePlateFloor</defName>
+    <label>lherzolite plate floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDLignitePlateFloor</defName>
+    <label>lignite plate floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDMigmatitePlateFloor</defName>
+    <label>migmatite plate floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDMonzonitePlateFloor</defName>
+    <label>monzonite plate floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDObsidianPlateFloor</defName>
+    <label>obsidian plate floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDRhyolitePlateFloor</defName>
+    <label>rhyolite plate floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDScoriaPlateFloor</defName>
+    <label>scoria plate floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDSerpentinitePlateFloor</defName>
+    <label>serpentinite plate floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDSiltstonePlateFloor</defName>
+    <label>siltstone plate floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>2</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDSovitePlateFloor</defName>
+    <label>sovite plate floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="WDStonePlateFloorBase">
+    <defName>WDThometzekitePlateFloor</defName>
+    <label>thometzekite plate floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  
+  
+  
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileAndesite</defName>
+    <label>fine andesite tile</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileAnorthosite</defName>
+    <label>fine anorthosite tile</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileBasalt</defName>
+    <label>fine basalt tile</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileBlueschist</defName>
+    <label>fine blueschist tile</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileChalk</defName>
+    <label>fine chalk tile</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileCharnockite</defName>
+    <label>fine charnockite tile</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileCreoleMarble</defName>
+    <label>fine creole marble tile</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileDacite</defName>
+    <label>fine dacite tile</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileDunite</defName>
+    <label>fine dunite tile</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileEmperadordark</defName>
+    <label>fine emperador dark tile</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileEtowahMarble</defName>
+    <label>fine etowah marble tile</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileGabbro</defName>
+    <label>fine gabbro tile</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileGreenSchist</defName>
+    <label>fine greenSchist tile</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileJaspillite</defName>
+    <label>fine jaspillite tile</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLepidolite</defName>
+    <label>fine lepidolite tile</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLherzolite</defName>
+    <label>fine lherzolite tile</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLignite</defName>
+    <label>fine lignite tile</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileMigmatite</defName>
+    <label>fine migmatite tile</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileMonzonite</defName>
+    <label>fine monzonite tile</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileObsidian</defName>
+    <label>fine obsidian tile</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileRhyolite</defName>
+    <label>fine rhyolite tile</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileScoria</defName>
+    <label>fine scoria tile</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSerpentinite</defName>
+    <label>fine serpentinite tile</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSiltstone</defName>
+    <label>fine siltstone tile</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>20</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSovite</defName>
+    <label>fine sovite tile</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileThometzekite</defName>
+    <label>fine thometzekite tile</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+
+    </value>
+	</match>
+  </Operation>
+</Patch>

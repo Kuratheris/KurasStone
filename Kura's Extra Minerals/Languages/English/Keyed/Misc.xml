@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+	<K_LabelModName>Extra Stones</K_LabelModName>
+	<K_LabelStoneTypesAvailable>Number of stone types per map</K_LabelStoneTypesAvailable>
+	<K_StoneTypesToSpawn>Stone Types To Spawn</K_StoneTypesToSpawn>
+
+</LanguageData>

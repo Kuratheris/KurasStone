@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Simple Chains: Steel</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkAndesite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(112,118,118)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>andesite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.1</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.25</MaxHitPoints>
+							<WorkToBuild>5.3</WorkToBuild>
+							<WorkToMake>1.12</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkAnorthosite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(158,139,132)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>anorthosite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.1</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.8</MaxHitPoints>
+							<WorkToBuild>5.6</WorkToBuild>
+							<WorkToMake>1.17</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkBasalt"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(73,77,79)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>basalt</stuffAdjective>
+						<statFactors>
+							<Beauty>1.15</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.35</MaxHitPoints>
+							<WorkToBuild>5.4</WorkToBuild>
+							<WorkToMake>1.16</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkBlueschist"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(159,191,214)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>blueschist</stuffAdjective>
+						<statFactors>
+							<Beauty>1.2</Beauty>
+							<MarketValue>0.42</MarketValue>
+							<MaxHitPoints>1.23</MaxHitPoints>
+							<WorkToBuild>5.5</WorkToBuild>
+							<WorkToMake>1.16</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkChalk"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(220,220,220)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>chalk</stuffAdjective>
+						<statFactors>
+							<Beauty>1.15</Beauty>  
+							<MarketValue>0.35</MarketValue>
+							<MaxHitPoints>1.3</MaxHitPoints>
+							<WorkToBuild>4.7</WorkToBuild>
+							<WorkToMake>1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkCharnockite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(141,120,79)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>charnockite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.1</Beauty>
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.35</MaxHitPoints>
+							<WorkToBuild>5</WorkToBuild>
+							<WorkToMake>1.11</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkCreoleMarble"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(174,211,210)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>creolemarble</stuffAdjective>
+						<statFactors>
+							<Beauty>1.35</Beauty>
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.2</MaxHitPoints>
+							<WorkToBuild>5.5</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkDacite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(177,178,172)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>dacite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.15</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.18</MaxHitPoints>
+							<WorkToBuild>5.4</WorkToBuild>
+							<WorkToMake>1.2</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkDunite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(153,176,110)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>dunite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.13</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.5</MaxHitPoints>
+							<WorkToBuild>5.0</WorkToBuild>
+							<WorkToMake>1.12</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkEmperadordark"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(72,46,38)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>emperadordark</stuffAdjective>
+						<statFactors>
+							<Beauty>1.35</Beauty>  
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.2</MaxHitPoints>
+							<WorkToBuild>5.5</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkEtowahMarble"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(246,200,184)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>etowahmarble</stuffAdjective>
+						<statFactors>
+							<Beauty>1.35</Beauty>
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.2</MaxHitPoints>
+							<WorkToBuild>5.5</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkGabbro"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(82,85,66)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>gabbro</stuffAdjective>
+						<statFactors>
+							<Beauty>1</Beauty>
+							<MarketValue>0.35</MarketValue>
+							<MaxHitPoints>1.3</MaxHitPoints>
+							<WorkToBuild>5.6</WorkToBuild>
+							<WorkToMake>1.13</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkGreenSchist"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(82,98,71)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>greenschist</stuffAdjective>
+						<statFactors>
+							<Beauty>1.2</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.21</MaxHitPoints>
+							<WorkToBuild>5.5</WorkToBuild>
+							<WorkToMake>1.16</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkJaspillite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(208,103,84)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>jaspillite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.3</Beauty>
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.35</MaxHitPoints>
+							<WorkToBuild>5.3</WorkToBuild>
+							<WorkToMake>1.12</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkLepidolite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(124,92,111)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>lepidolite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.5</Beauty>  
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.3</MaxHitPoints>
+							<WorkToBuild>5.6</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkLherzolite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(150,176,81)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>lherzolite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.25</Beauty>
+							<MarketValue>0.45</MarketValue>
+							<MaxHitPoints>1.8</MaxHitPoints>
+							<WorkToBuild>5</WorkToBuild>
+							<WorkToMake>1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkLignite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(82,72,70)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>lignite</stuffAdjective>
+						<statFactors>
+							<Beauty>1</Beauty>
+							<MarketValue>0.38</MarketValue>
+							<MaxHitPoints>1.1</MaxHitPoints>
+							<WorkToBuild>5.0</WorkToBuild>
+							<WorkToMake>1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkMigmatite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(136,146,155)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>migmatite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.17</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.6</MaxHitPoints>
+							<WorkToBuild>5</WorkToBuild>
+							<WorkToMake>1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkMonzonite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(193,184,186)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>monzonite</stuffAdjective>
+						<statFactors>
+							<Beauty>0.9</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.6</MaxHitPoints>
+							<WorkToBuild>5.2</WorkToBuild>
+							<WorkToMake>1.1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkObsidian"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(35,35,35)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>obsidian</stuffAdjective>
+						<statFactors>
+							<Beauty>1.3</Beauty>  
+							<MarketValue>0.47</MarketValue>
+							<MaxHitPoints>1.8</MaxHitPoints>
+							<WorkToBuild>5.6</WorkToBuild>
+							<WorkToMake>1.2</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkRhyolite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(201,159,134)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>rhyolite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.1</Beauty>
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.3</MaxHitPoints>
+							<WorkToBuild>5.0</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkScoria"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(87,80,73)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>scoria</stuffAdjective>
+						<statFactors>
+							<Beauty>0.9</Beauty>
+							<MarketValue>0.38</MarketValue>
+							<MaxHitPoints>1.1</MaxHitPoints>
+							<WorkToBuild>5.3</WorkToBuild>
+							<WorkToMake>1.2</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkSerpentinite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(60,96,58)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>serpentinite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.2</Beauty>
+							<MarketValue>0.43</MarketValue>
+							<MaxHitPoints>1.5</MaxHitPoints>
+							<WorkToBuild>5.0</WorkToBuild>
+							<WorkToMake>1.15</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkSiltstone"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(167,146,117)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>siltstone</stuffAdjective>
+						<statFactors>
+							<Beauty>1.1</Beauty>
+							<MarketValue>0.38</MarketValue>
+							<MaxHitPoints>1.4</MaxHitPoints>
+							<WorkToBuild>5.0</WorkToBuild>
+							<WorkToMake>1.1</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkSovite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(187,181,135)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>sovite</stuffAdjective>
+						<statFactors>
+							<Beauty>0.9</Beauty>  
+							<MarketValue>0.4</MarketValue>
+							<MaxHitPoints>1.2</MaxHitPoints>
+							<WorkToBuild>5.3</WorkToBuild>
+							<WorkToMake>1.18</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ChunkThometzekite"]</xpath>
+				<value>
+					<stuffProps>
+						<categories>
+							<li>Chunky</li>
+						</categories>
+						<statOffsets>
+							<WorkToBuild>140</WorkToBuild>
+						</statOffsets>
+						<color>(180,213,197)</color>
+						<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+						<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+						<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+						<stuffAdjective>thometzekite</stuffAdjective>
+						<statFactors>
+							<Beauty>1.4</Beauty>  
+							<MarketValue>0.43</MarketValue>
+							<MaxHitPoints>1.2</MaxHitPoints>
+							<WorkToBuild>5.7</WorkToBuild>
+							<WorkToMake>1.18</WorkToMake>
+						</statFactors>
+					</stuffProps>
+				</value>
+			</li>
+		</operations>
+			</match>
+	</Operation>
+	
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Simple Chains: Steel</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>
+			Defs/ThingDef[defName = "ChunkAndesite"] | 
+			Defs/ThingDef[defName = "ChunkAnorthosite"] |
+			Defs/ThingDef[defName = "ChunkBasalt"] | 
+			Defs/ThingDef[defName = "ChunkBlueschist"] |
+			Defs/ThingDef[defName = "ChunkChalk"] |
+			Defs/ThingDef[defName = "ChunkCharnockite"] | 
+			Defs/ThingDef[defName = "ChunkCreoleMarble"] |
+			Defs/ThingDef[defName = "ChunkDacite"] | 
+			Defs/ThingDef[defName = "ChunkDunite"] |
+			Defs/ThingDef[defName = "ChunkEmperadordark"] |
+			Defs/ThingDef[defName = "ChunkEtowahMarble"] | 
+			Defs/ThingDef[defName = "ChunkGabbro"] |
+			Defs/ThingDef[defName = "ChunkGreenSchist"] | 
+			Defs/ThingDef[defName = "ChunkJaspillite"] |
+			Defs/ThingDef[defName = "ChunkLepidolite"] |
+			Defs/ThingDef[defName = "ChunkLherzolite"] | 
+			Defs/ThingDef[defName = "ChunkLignite"] |
+			Defs/ThingDef[defName = "ChunkMigmatite"] | 
+			Defs/ThingDef[defName = "ChunkMonzonite"] |
+			Defs/ThingDef[defName = "ChunkObsidian"] |
+			Defs/ThingDef[defName = "ChunkRhyolite"] | 
+			Defs/ThingDef[defName = "ChunkScoria"] |
+			Defs/ThingDef[defName = "ChunkSerpentinite"] | 
+			Defs/ThingDef[defName = "ChunkSiltstone"] |
+			Defs/ThingDef[defName = "ChunkSovite"] |
+			Defs/ThingDef[defName = "ChunkThometzekite"]
+		</xpath>
+		<success>Always</success>
+		<value>
+			<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		</value>
+	</match>
+	</Operation>
+</Patch>	

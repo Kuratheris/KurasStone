@@ -1,0 +1,2780 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ================ Andesite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="AndesiteBase">
+    <defName>Andesite</defName>
+    <label>andesite</label>
+    <description>An intermediate volcanic rock.</description>
+    <graphicData>
+      <color>(112,118,118)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkAndesite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedAndesite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AndesiteBase">
+    <defName>SmoothedAndesite</defName>
+    <label>smoothed andesite</label>
+    <description>An intermediate volcanic rock. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>21</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkAndesite</defName>
+    <label>andesite chunk</label>
+    <graphicData>
+      <color>(112,118,118)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksAndesite>20</BlocksAndesite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksAndesite</defName>
+    <label>andesite blocks</label>
+    <description>Blocks of solid andesite.</description>
+    <graphicData>
+      <color>(112,118,118)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.2</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(112,118,118)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>andesite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.25</MaxHitPoints>
+		<WorkToBuild>5.3</WorkToBuild>
+		<WorkToMake>1.12</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksAndesite</defName>
+		<label>make andesite blocks</label>
+		<description>Cuts andesite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkAndesite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkAndesite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksAndesite>20</BlocksAndesite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Anorthosite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="AnorthositeBase">
+    <defName>Anorthosite</defName>
+    <label>anorthosite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(158,139,132)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>950</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkAnorthosite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedAnorthosite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AnorthositeBase">
+    <defName>SmoothedAnorthosite</defName>
+    <label>smoothed anorthosite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.2</Beauty>
+      <MarketValue>24</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkAnorthosite</defName>
+    <label>anorthosite chunk</label>
+    <graphicData>
+      <color>(158,139,132)</color>
+    </graphicData>
+    <statBases>
+      <Mass>28</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksAnorthosite</defName>
+    <label>anorthosite blocks</label>
+    <description>Blocks of solid anorthosite.</description>
+    <graphicData>
+      <color>(158,139,132)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.3</Mass>
+      <SharpDamageMultiplier>0.67</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(158,139,132)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>anorthosite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.8</MaxHitPoints>
+		<WorkToBuild>5.6</WorkToBuild>
+		<WorkToMake>1.17</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksAnorthosite</defName>
+		<label>make anorthosite blocks</label>
+		<description>Cuts anorthosite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkAnorthosite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkAnorthosite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksAnorthosite>20</BlocksAnorthosite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Basalt ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="BasaltBase">
+    <defName>Basalt</defName>
+    <label>basalt</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(73,77,79)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkBasalt</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedBasalt</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BasaltBase">
+    <defName>SmoothedBasalt</defName>
+    <label>smoothed basalt</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>22</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkBasalt</defName>
+    <label>basalt chunk</label>
+    <graphicData>
+      <color>(73,77,79)</color>
+    </graphicData>
+    <statBases>
+      <Mass>26</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksBasalt>20</BlocksBasalt>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksBasalt</defName>
+    <label>basalt blocks</label>
+    <description>Blocks of solid basalt.</description>
+    <graphicData>
+      <color>(73,77,79)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.27</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(73,77,79)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>basalt</stuffAdjective>
+      <statFactors>
+        <Beauty>1.15</Beauty>  
+        <MaxHitPoints>1.35</MaxHitPoints>
+		<WorkToBuild>5.4</WorkToBuild>
+		<WorkToMake>1.16</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksBasalt</defName>
+		<label>make basalt blocks</label>
+		<description>Cuts basalt chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkBasalt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkBasalt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksBasalt>20</BlocksBasalt>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Blueschist ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="BlueschistBase">
+    <defName>Blueschist</defName>
+    <label>blueschist</label>
+    <description>A coarse-grained metamorphic rock.</description>
+    <graphicData>
+      <color>(159,191,214)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkBlueschist</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedBlueschist</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="BlueschistBase">
+    <defName>SmoothedBlueschist</defName>
+    <label>smoothed blueschist</label>
+    <description>A coarse-grained metamorphic rock. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkBlueschist</defName>
+    <label>blueschist chunk</label>
+    <graphicData>
+      <color>(159,191,214)</color>
+    </graphicData>
+    <statBases>
+      <Mass>23</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksBlueschist</defName>
+    <label>blueschist blocks</label>
+    <description>Blocks of solid blueschist.</description>
+    <graphicData>
+      <color>(159,191,214)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.15</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(159,191,214)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>blueschist</stuffAdjective>
+      <statFactors>
+        <Beauty>1.2</Beauty>  
+        <MaxHitPoints>1.23</MaxHitPoints>
+		<WorkToBuild>5.5</WorkToBuild>
+		<WorkToMake>1.16</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksBlueschist</defName>
+		<label>make blueschist blocks</label>
+		<description>Cuts blueschist chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkBlueschist</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkBlueschist</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksBlueschist>20</BlocksBlueschist>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Chalk ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="ChalkBase">
+    <defName>Chalk</defName>
+    <label>chalk</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(220,220,220)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkChalk</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedChalk</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChalkBase">
+    <defName>SmoothedChalk</defName>
+    <label>smoothed chalk</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth layer.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkChalk</defName>
+    <label>chalk chunk</label>
+    <graphicData>
+      <color>(220,220,220)</color>
+    </graphicData>
+    <statBases>
+      <Mass>21</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksChalk>20</BlocksChalk>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksChalk</defName>
+    <label>chalk blocks</label>
+    <description>Blocks of solid chalk.</description>
+    <graphicData>
+      <color>(220,220,220)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(220,220,220)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>chalk</stuffAdjective>
+      <statFactors>
+        <Beauty>1.15</Beauty>  
+        <MaxHitPoints>1.3</MaxHitPoints>
+		<WorkToBuild>4.7</WorkToBuild>
+		<WorkToMake>1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksChalk</defName>
+		<label>make chalk blocks</label>
+		<description>Cuts chalk chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkChalk</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkChalk</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksChalk>20</BlocksChalk>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Charnockite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="CharnockiteBase">
+    <defName>Charnockite</defName>
+    <label>charnockite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(141,120,79)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkCharnockite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedCharnockite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="CharnockiteBase">
+    <defName>SmoothedCharnockite</defName>
+    <label>smoothed charnockite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkCharnockite</defName>
+    <label>charnockite chunk</label>
+    <graphicData>
+      <color>(141,120,79)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksCharnockite</defName>
+    <label>charnockite blocks</label>
+    <description>Blocks of solid charnockite.</description>
+    <graphicData>
+      <color>(141,120,79)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.1</Mass>
+      <SharpDamageMultiplier>0.52</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(141,120,79)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>charnockite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.35</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.11</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksCharnockite</defName>
+		<label>make charnockite blocks</label>
+		<description>Cuts charnockite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkCharnockite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkCharnockite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksCharnockite>20</BlocksCharnockite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Creole Marble ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="CreoleMarbleBase">
+    <defName>CreoleMarble</defName>
+    <label>creole marble</label>
+    <description>A blueish marble.</description>
+    <graphicData>
+      <color>(174,211,210)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkCreoleMarble</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedCreoleMarble</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="CreoleMarbleBase">
+    <defName>SmoothedCreoleMarble</defName>
+    <label>smoothed creole marble</label>
+    <description>A blueish marble, polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>25</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkCreoleMarble</defName>
+    <label>creole marble chunk</label>
+    <graphicData>
+      <color>(174,211,210)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksCreoleMarble</defName>
+    <label>creole marble blocks</label>
+    <description>Blocks of solid creole marble.</description>
+    <graphicData>
+      <color>(174,211,210)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(174,211,210)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>creolemarble</stuffAdjective>
+      <statFactors>
+        <Beauty>1.35</Beauty>  
+        <MaxHitPoints>1.2</MaxHitPoints>
+		<WorkToBuild>5.5</WorkToBuild>
+		<WorkToMake>1.15</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksCreoleMarble</defName>
+		<label>make creole marble blocks</label>
+		<description>Cuts creole marble chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkCreoleMarble</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkCreoleMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksCreoleMarble>20</BlocksCreoleMarble>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Dacite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="DaciteBase">
+    <defName>Dacite</defName>
+    <label>dacite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(177,178,172)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>430</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkDacite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedDacite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="DaciteBase">
+    <defName>SmoothedDacite</defName>
+    <label>smoothed dacite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.1</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkDacite</defName>
+    <label>dacite chunk</label>
+    <graphicData>
+      <color>(177,178,172)</color>
+    </graphicData>
+    <statBases>
+      <Mass>24</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksDacite>20</BlocksDacite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksDacite</defName>
+    <label>dacite blocks</label>
+    <description>Blocks of solid dacite.</description>
+    <graphicData>
+      <color>(177,178,172)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.15</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(177,178,172)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>dacite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.15</Beauty>  
+        <MaxHitPoints>1.18</MaxHitPoints>
+		<WorkToBuild>5.4</WorkToBuild>
+		<WorkToMake>1.2</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksDacite</defName>
+		<label>make dacite blocks</label>
+		<description>Cuts dacite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkDacite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkDacite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksDacite>20</BlocksDacite>
+		</products>
+	</RecipeDef>
+	
+    <!-- ================ Dunite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="DuniteBase">
+    <defName>Dunite</defName>
+    <label>dunite</label>
+    <description>Dunite is an igneous, plutonic rock, of ultramafic composition, with coarse-grained or phaneritic texture.</description>
+    <graphicData>
+      <color>(153,176,110)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkDunite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedDunite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="DuniteBase">
+    <defName>SmoothedDunite</defName>
+    <label>smoothed dunite</label>
+    <description>Dunite is an igneous, plutonic rock, of ultramafic composition, with coarse-grained or phaneritic texture. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>19</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+	  <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkDunite</defName>
+    <label>dunite chunk</label>
+    <graphicData>
+      <color>(153,176,110)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksDunite>20</BlocksDunite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksDunite</defName>
+    <label>dunite blocks</label>
+    <description>Blocks of solid dunite.</description>
+    <graphicData>
+      <color>(153,176,110)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.2</Mass>
+      <SharpDamageMultiplier>0.55</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(153,176,110)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>dunite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.13</Beauty>
+        <MaxHitPoints>1.5</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.12</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksDunite</defName>
+		<label>make dunite blocks</label>
+		<description>Cuts Dunite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkDunite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkDunite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksDunite>20</BlocksDunite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Emperador Dark ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="EmperadorDarkBase">
+    <defName>Emperadordark</defName>
+    <label>emperador dark</label>
+    <description>A brown marble.</description>
+    <graphicData>
+      <color>(72,46,38)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkEmperadordark</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedEmperadordark</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="EmperadorDarkBase">
+    <defName>SmoothedEmperadordark</defName>
+    <label>smoothed emperadordark</label>
+    <description>A brown marble, polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <MarketValue>26</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkEmperadordark</defName>
+    <label>emperador dark chunk</label>
+    <graphicData>
+      <color>(72,46,38)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksEmperadordark</defName>
+    <label>emperador dark blocks</label>
+    <description>Blocks of solid emperador dark marble.</description>
+    <graphicData>
+      <color>(72,46,38)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(72,46,38)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>emperador dark</stuffAdjective>
+      <statFactors>
+        <Beauty>1.37</Beauty>  
+        <MaxHitPoints>1.2</MaxHitPoints>
+				<WorkToBuild>5.55</WorkToBuild>
+				<WorkToMake>1.16</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksEmperadordark</defName>
+		<label>make emperador dark marble blocks</label>
+		<description>Cuts emperador dark chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkEmperadordark</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkEmperadordark</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksEmperadordark>20</BlocksEmperadordark>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Etowah Marble ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="EtowahMarbleBase">
+    <defName>EtowahMarble</defName>
+    <label>etowah marble</label>
+    <description>A cream-pink marble.</description>
+    <graphicData>
+      <color>(246,200,184)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkEtowahMarble</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedEtowahMarble</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="EtowahMarbleBase">
+    <defName>SmoothedEtowahMarble</defName>
+    <label>smoothed etowah marble</label>
+    <description>A cream-pink marble, polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>25</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkEtowahMarble</defName>
+    <label>etowah marble chunk</label>
+    <graphicData>
+      <color>(246,200,184)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksEtowahMarble</defName>
+    <label>etowah marble blocks</label>
+    <description>Blocks of solid etowah marble.</description>
+    <graphicData>
+      <color>(246,200,184)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(246,200,184)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>etowahmarble</stuffAdjective>
+      <statFactors>
+        <Beauty>1.35</Beauty>  
+        <MaxHitPoints>1.2</MaxHitPoints>
+		<WorkToBuild>5.5</WorkToBuild>
+		<WorkToMake>1.15</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksEtowahMarble</defName>
+		<label>make etowah marble blocks</label>
+		<description>Cuts etowah marble chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkEtowahMarble</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkEtowahMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksEtowahMarble>20</BlocksEtowahMarble>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Gabbro ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="GabbroBase">
+    <defName>Gabbro</defName>
+    <label>gabbro</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(82,85,66)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkGabbro</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedGabbro</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="GabbroBase">
+    <defName>SmoothedGabbro</defName>
+    <label>smoothed gabbro</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkGabbro</defName>
+    <label>gabbro chunk</label>
+    <graphicData>
+      <color>(82,85,66)</color>
+    </graphicData>
+    <statBases>
+      <Mass>26</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksGabbro>20</BlocksGabbro>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksGabbro</defName>
+    <label>gabbro blocks</label>
+    <description>Blocks of solid gabbro.</description>
+    <graphicData>
+      <color>(82,85,66)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.2</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(82,85,66)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>gabbro</stuffAdjective>
+      <statFactors>
+        <Beauty>1</Beauty>  
+        <MaxHitPoints>1.3</MaxHitPoints>
+		<WorkToBuild>5.600</WorkToBuild>
+		<WorkToMake>1.13</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksGabbro</defName>
+		<label>make gabbro blocks</label>
+		<description>Cuts gabbro chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkGabbro</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkGabbro</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGabbro>20</BlocksGabbro>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ GreenSchist ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="GreenSchistBase">
+    <defName>GreenSchist</defName>
+    <label>greenschist</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(82,98,71)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>580</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkGreenSchist</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedGreenSchist</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="GreenSchistBase">
+    <defName>SmoothedGreenSchist</defName>
+    <label>smoothed greenschist</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkGreenSchist</defName>
+    <label>greenschist chunk</label>
+    <graphicData>
+      <color>(82,98,71)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksGreenSchist</defName>
+    <label>greenschist blocks</label>
+    <description>Blocks of solid greenschist.</description>
+    <graphicData>
+      <color>(82,98,71)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.13</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(82,98,71)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>greenschist</stuffAdjective>
+      <statFactors>
+        <Beauty>1.2</Beauty>  
+        <MaxHitPoints>1.21</MaxHitPoints>
+		<WorkToBuild>5.5</WorkToBuild>
+		<WorkToMake>1.16</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksGreenSchist</defName>
+		<label>make greenschist blocks</label>
+		<description>Cuts greenschist chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkGreenSchist</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkGreenSchist</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksGreenSchist>20</BlocksGreenSchist>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Jaspillite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="JaspilliteBase">
+    <defName>Jaspillite</defName>
+    <label>jaspillite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(208,103,84)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>850</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkJaspillite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedJaspillite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="JaspilliteBase">
+    <defName>SmoothedJaspillite</defName>
+    <label>smoothed jaspillite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.5</Beauty>
+      <MarketValue>24</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkJaspillite</defName>
+    <label>jaspillite chunk</label>
+    <graphicData>
+      <color>(208,103,84)</color>
+    </graphicData>
+    <statBases>
+      <Mass>24</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksJaspillite</defName>
+    <label>jaspillite blocks</label>
+    <description>Blocks of solid jaspillite.</description>
+    <graphicData>
+      <color>(208,103,84)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.2</Mass>
+      <SharpDamageMultiplier>0.9</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(208,103,84)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>jaspillite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.3</Beauty>  
+        <MaxHitPoints>1.35</MaxHitPoints>
+		<WorkToBuild>5.3</WorkToBuild>
+		<WorkToMake>1.12</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksJaspillite</defName>
+		<label>make jaspillite blocks</label>
+		<description>Cuts jaspillite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkJaspillite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkJaspillite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksJaspillite>20</BlocksJaspillite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Lepidolite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="LepidoliteBase">
+    <defName>Lepidolite</defName>
+    <label>lepidolite</label>
+    <description>A lilac-gray member of the mica group of minerals.</description>
+    <graphicData>
+      <color>(124,92,111)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkLepidolite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedLepidolite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="LepidoliteBase">
+    <defName>SmoothedLepidolite</defName>
+    <label>smoothed lepidolite</label>
+    <description>Lepidolite, polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>2.2</Beauty>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkLepidolite</defName>
+    <label>lepidolite chunk</label>
+    <graphicData>
+      <color>(124,92,111)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksLepidolite</defName>
+    <label>lepidolite blocks</label>
+    <description>Blocks of solid lepidolite.</description>
+    <graphicData>
+      <color>(124,92,111)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.1</Mass>
+      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(124,92,111)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>Lepidolite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.5</Beauty>  
+        <MaxHitPoints>1.3</MaxHitPoints>
+		<WorkToBuild>5.6</WorkToBuild>
+		<WorkToMake>1.15</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1.1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksLepidolite</defName>
+		<label>make lepidolite blocks</label>
+		<description>Cuts lepidolite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLepidolite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLepidolite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLepidolite>20</BlocksLepidolite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Lherzolite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="LherzoliteBase">
+    <defName>Lherzolite</defName>
+    <label>lherzolite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(150,176,81)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>980</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkLherzolite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedLherzolite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="LherzoliteBase">
+    <defName>SmoothedLherzolite</defName>
+    <label>smoothed lherzolite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.8</Beauty>
+      <MarketValue>24</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkLherzolite</defName>
+    <label>lherzolite chunk</label>
+    <graphicData>
+      <color>(150,176,81)</color>
+    </graphicData>
+    <statBases>
+      <Mass>23</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksLherzolite</defName>
+    <label>lherzolite blocks</label>
+    <description>Blocks of solid lherzolite.</description>
+    <graphicData>
+      <color>(150,176,81)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.15</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(150,176,81)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>lherzolite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.25</Beauty>  
+        <MaxHitPoints>1.8</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksLherzolite</defName>
+		<label>make lherzolite blocks</label>
+		<description>Cuts lherzolite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLherzolite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLherzolite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLherzolite>20</BlocksLherzolite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Lignite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="LigniteBase">
+    <defName>Lignite</defName>
+    <label>lignite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(82,72,70)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>430</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkLignite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedLignite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="LigniteBase">
+    <defName>SmoothedLignite</defName>
+    <label>smoothed lignite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>17</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkLignite</defName>
+    <label>lignite chunk</label>
+    <graphicData>
+      <color>(82,72,70)</color>
+    </graphicData>
+    <statBases>
+      <Mass>30</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksLignite>20</BlocksLignite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksLignite</defName>
+    <label>lignite blocks</label>
+    <description>Blocks of solid lignite.</description>
+    <graphicData>
+      <color>(82,72,70)</color>
+    </graphicData>
+    <statBases>
+      <Mass>2</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(82,72,70)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>lignite</stuffAdjective>
+      <statFactors>
+        <Beauty>1</Beauty>  
+        <MaxHitPoints>1.1</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksLignite</defName>
+		<label>make lignite blocks</label>
+		<description>Cuts lignite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkLignite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkLignite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksLignite>20</BlocksLignite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Migmatite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="MigmatiteBase">
+    <defName>Migmatite</defName>
+    <label>migmatite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(136,146,155)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>770</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkMigmatite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedMigmatite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="MigmatiteBase">
+    <defName>SmoothedMigmatite</defName>
+    <label>smoothed migmatite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.5</Beauty>
+      <MarketValue>21</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkMigmatite</defName>
+    <label>migmatite chunk</label>
+    <graphicData>
+      <color>(136,146,155)</color>
+    </graphicData>
+    <statBases>
+      <Mass>25</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksMigmatite</defName>
+    <label>migmatite blocks</label>
+    <description>Blocks of solid migmatite.</description>
+    <graphicData>
+      <color>(136,146,155)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.25</Mass>
+      <SharpDamageMultiplier>0.7</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(136,146,155)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>migmatite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.17</Beauty>  
+        <MaxHitPoints>1.6</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksMigmatite</defName>
+		<label>make migmatite blocks</label>
+		<description>Cuts migmatite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkMigmatite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkMigmatite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMigmatite>20</BlocksMigmatite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Monzonite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="MonzoniteBase">
+    <defName>Monzonite</defName>
+    <label>monzonite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(193,184,186)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkMonzonite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedMonzonite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="MonzoniteBase">
+    <defName>SmoothedMonzonite</defName>
+    <label>smoothed monzonite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>0.9</Beauty>
+      <MarketValue>17</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkMonzonite</defName>
+    <label>monzonite chunk</label>
+    <graphicData>
+      <color>(193,184,186)</color>
+    </graphicData>
+    <statBases>
+      <Mass>26</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksMonzonite</defName>
+    <label>monzonite blocks</label>
+    <description>Blocks of solid monzonite.</description>
+    <graphicData>
+      <color>(193,184,186)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.28</Mass>
+      <SharpDamageMultiplier>0.8</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(193,184,186)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>monzonite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MaxHitPoints>1.6</MaxHitPoints>
+		<WorkToBuild>5.2</WorkToBuild>
+		<WorkToMake>1.1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksMonzonite</defName>
+		<label>make monzonite blocks</label>
+		<description>Cuts monzonite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkMonzonite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkMonzonite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksMonzonite>20</BlocksMonzonite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Obsidian ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="ObsidianBase">
+    <defName>Obsidian</defName>
+    <label>obsidian</label>
+    <description>A naturally occurring volcanic glass.</description>
+    <graphicData>
+      <color>(35,35,35)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>740</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkObsidian</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedObsidian</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="ObsidianBase">
+    <defName>SmoothedObsidian</defName>
+    <label>smoothed obsidian</label>
+    <description>A naturally occurring volcanic glass. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>2.5</Beauty>
+      <MarketValue>26</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkObsidian</defName>
+    <label>obsidian chunk</label>
+    <graphicData>
+      <color>(35,35,35)</color>
+    </graphicData>
+    <statBases>
+      <Mass>28</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksObsidian>20</BlocksObsidian>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksObsidian</defName>
+    <label>obsidian blocks</label>
+    <description>Blocks of solid obsidian.</description>
+    <graphicData>
+      <color>(35,35,35)</color>
+    </graphicData>
+    <statBases>
+      <Mass>2</Mass>
+      <SharpDamageMultiplier>1.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(35,35,35)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>obsidian</stuffAdjective>
+      <statFactors>
+        <Beauty>1.38</Beauty>  
+        <MaxHitPoints>1.9</MaxHitPoints>
+		<WorkToBuild>5.6</WorkToBuild>
+		<WorkToMake>1.2</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksObsidian</defName>
+		<label>make obsidian blocks</label>
+		<description>Cuts obsidian chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkObsidian</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkObsidian</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksObsidian>20</BlocksObsidian>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Rhyolite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="RhyoliteBase">
+    <defName>Rhyolite</defName>
+    <label>rhyolite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(201,159,134)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkRhyolite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedRhyolite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RhyoliteBase">
+    <defName>SmoothedRhyolite</defName>
+    <label>smoothed rhyolite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.3</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkRhyolite</defName>
+    <label>rhyolite chunk</label>
+    <graphicData>
+      <color>(201,159,134)</color>
+    </graphicData>
+    <statBases>
+      <Mass>23</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksRhyolite</defName>
+    <label>rhyolite blocks</label>
+    <description>Blocks of solid rhyolite.</description>
+    <graphicData>
+      <color>(201,159,134)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.13</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(201,159,134)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>rhyolite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.3</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.15</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksRhyolite</defName>
+		<label>make rhyolite blocks</label>
+		<description>Cuts rhyolite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkRhyolite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkRhyolite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksRhyolite>20</BlocksRhyolite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Scoria ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="ScoriaBase">
+    <defName>Scoria</defName>
+    <label>scoria</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(87,80,73)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>470</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkScoria</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedScoria</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="ScoriaBase">
+    <defName>SmoothedScoria</defName>
+    <label>smoothed scoria</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkScoria</defName>
+    <label>scoria chunk</label>
+    <graphicData>
+      <color>(87,80,73)</color>
+    </graphicData>
+    <statBases>
+      <Mass>17</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksScoria>20</BlocksScoria>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksScoria</defName>
+    <label>scoria blocks</label>
+    <description>Blocks of solid scoria.</description>
+    <graphicData>
+      <color>(87,80,73)</color>
+    </graphicData>
+    <statBases>
+      <Mass>0.9</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(87,80,73)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>scoria</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MaxHitPoints>1.1</MaxHitPoints>
+		<WorkToBuild>5.3</WorkToBuild>
+		<WorkToMake>1.2</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksScoria</defName>
+		<label>make scoria blocks</label>
+		<description>Cuts scoria chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkScoria</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkScoria</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksScoria>20</BlocksScoria>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Serpentinite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="SerpentiniteBase">
+    <defName>Serpentinite</defName>
+    <label>serpentinite</label>
+    <description>A rock composed of one or more serpentine group minerals.</description>
+    <graphicData>
+      <color>(60,96,58)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>700</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSerpentinite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSerpentinite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="SerpentiniteBase">
+    <defName>SmoothedSerpentinite</defName>
+    <label>smoothed serpentinite</label>
+    <description>A rock composed of one or more serpentine group minerals. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1.5</Beauty>
+      <MarketValue>20</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkSerpentinite</defName>
+    <label>serpentinite chunk</label>
+    <graphicData>
+      <color>(60,96,58)</color>
+    </graphicData>
+    <statBases>
+      <Mass>23</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksSerpentinite</defName>
+    <label>serpentinite blocks</label>
+    <description>Blocks of solid serpentinite.</description>
+    <graphicData>
+      <color>(60,96,58)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.15</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(60,96,58)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>serpentinite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.2</Beauty>  
+        <MaxHitPoints>1.5</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.15</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksSerpentinite</defName>
+		<label>make serpentinite blocks</label>
+		<description>Cuts serpentinite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSerpentinite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSerpentinite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSerpentinite>20</BlocksSerpentinite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Siltstone ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="SiltstoneBase">
+    <defName>Siltstone</defName>
+    <label>siltstone</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(167,146,117)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>430</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSiltstone</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSiltstone</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="SiltstoneBase">
+    <defName>SmoothedSiltstone</defName>
+    <label>smoothed siltstone</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>1</Beauty>
+      <MarketValue>18</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkSiltstone</defName>
+    <label>siltstone chunk</label>
+    <graphicData>
+      <color>(167,146,117)</color>
+    </graphicData>
+    <statBases>
+      <Mass>21</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksSiltstone>20</BlocksSiltstone>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksSiltstone</defName>
+    <label>siltstone blocks</label>
+    <description>Blocks of solid siltstone.</description>
+    <graphicData>
+      <color>(167,146,117)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(167,146,117)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>siltstone</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>  
+        <MaxHitPoints>1.4</MaxHitPoints>
+		<WorkToBuild>5.0</WorkToBuild>
+		<WorkToMake>1.1</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksSiltstone</defName>
+		<label>make siltstone blocks</label>
+		<description>Cuts siltstone chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSiltstone</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSiltstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSiltstone>20</BlocksSiltstone>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Sovite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="SoviteBase">
+    <defName>Sovite</defName>
+    <label>sovite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase.</description>
+    <graphicData>
+      <color>(187,181,135)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkSovite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedSovite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="SoviteBase">
+    <defName>SmoothedSovite</defName>
+    <label>smoothed sovite</label>
+    <description>A plutonic rock composed largely of calcic plagioclase. It has been polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>0.9</Beauty>
+      <MarketValue>17</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkSovite</defName>
+    <label>sovite chunk</label>
+    <graphicData>
+      <color>(187,181,135)</color>
+    </graphicData>
+    <statBases>
+      <Mass>22</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksSovite>20</BlocksSovite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksSovite</defName>
+    <label>sovite blocks</label>
+    <description>Blocks of solid sovite.</description>
+    <graphicData>
+      <color>(187,181,135)</color>
+    </graphicData>
+    <statBases>
+      <Mass>1.2</Mass>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(187,181,135)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>sovite</stuffAdjective>
+      <statFactors>
+        <Beauty>0.9</Beauty>  
+        <MaxHitPoints>1.2</MaxHitPoints>
+		<WorkToBuild>5.3</WorkToBuild>
+		<WorkToMake>1.18</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksSovite</defName>
+		<label>make sovite blocks</label>
+		<description>Cuts sovite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSovite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSovite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksSovite>20</BlocksSovite>
+		</products>
+	</RecipeDef>
+	
+	<!-- ================ Thometzekite ================ -->
+  
+  <ThingDef ParentName="UglyRockBase" Name="ThometzekiteBase">
+    <defName>Thometzekite</defName>
+    <label>thometzekite</label>
+    <description>A monoclinic-prismatic mineral.</description>
+    <graphicData>
+      <color>(180,213,197)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>650</MaxHitPoints>
+	  <Beauty>-1</Beauty>
+    </statBases>
+    <building>
+      <mineableThing>ChunkThometzekite</mineableThing>
+      <mineableDropChance>0.25</mineableDropChance>
+      <smoothedThing>SmoothedThometzekite</smoothedThing>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="ThometzekiteBase">
+    <defName>SmoothedThometzekite</defName>
+    <label>smoothed thometzekite</label>
+    <description>Thometzekite, polished to a flat, smooth surface.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockSmooth_Atlas</texPath>
+    </graphicData>
+    <statBases>
+      <Beauty>2.3</Beauty>
+      <MarketValue>27</MarketValue>
+    </statBases>
+    <building>
+      <isNaturalRock>false</isNaturalRock>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+      <smoothedThing />
+    </building>
+    <saveCompressible>false</saveCompressible>
+	<repairEffect>Repair</repairEffect>
+  </ThingDef>
+  
+  <ThingDef ParentName="ChunkRockBase">
+    <defName>ChunkThometzekite</defName>
+    <label>thometzekite chunk</label>
+    <graphicData>
+      <color>(180,213,197)</color>
+    </graphicData>
+    <statBases>
+      <Mass>20</Mass>
+    </statBases>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <butcherProducts>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </butcherProducts>
+  </ThingDef>
+  
+  <ThingDef ParentName="StoneBlocksBase">
+    <defName>BlocksThometzekite</defName>
+    <label>thometzekite blocks</label>
+    <description>Blocks of solid thometzekite.</description>
+    <graphicData>
+      <color>(180,213,197)</color>
+    </graphicData>
+    <statBases>
+      <Mass>0.9</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(180,213,197)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>thometzekite</stuffAdjective>
+      <statFactors>
+        <Beauty>1.4</Beauty>  
+        <MaxHitPoints>1.2</MaxHitPoints>
+		<WorkToBuild>5.7</WorkToBuild>
+		<WorkToMake>1.18</WorkToMake>
+      </statFactors>
+	  <statOffsets>
+        <Beauty>1</Beauty>
+      </statOffsets>
+    </stuffProps>
+  </ThingDef>
+
+	<RecipeDef ParentName="MakeStoneBlocksBase">
+		<defName>Make_StoneBlocksThometzekite</defName>
+		<label>make thometzekite blocks</label>
+		<description>Cuts thometzekite chunks into usable blocks.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkThometzekite</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkThometzekite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BlocksThometzekite>20</BlocksThometzekite>
+		</products>
+	</RecipeDef>
+</Defs>
