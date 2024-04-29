@@ -1,0 +1,7 @@
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.csprojAssemblyReference.cache
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.csproj.CoreCompileInputs.cache
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Assemblies\KurasStones.dll
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.dll
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source(Cupro Tex)\KurasStones\obj\Debug\KurasStones.csprojAssemblyReference.cache
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source(Cupro Tex)\KurasStones\obj\Debug\KurasStones.csproj.CoreCompileInputs.cache
+C:\Users\Kura\Downloads\Kuras-Stones-1.0\Kuras-Stones-1.0\Source(Cupro Tex)\KurasStones\obj\Debug\KurasStones.dll

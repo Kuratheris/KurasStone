@@ -1,0 +1,8 @@
+C:\Users\Kura\Downloads\Cupros-Stones-1.0\Cupros-Stones-1.0\Source\CuprosStones\obj\Debug\CuprosStones.csprojAssemblyReference.cache
+C:\Users\Kura\Downloads\Cupros-Stones-1.0\Cupros-Stones-1.0\Source\CuprosStones\obj\Debug\CuprosStones.csproj.CoreCompileInputs.cache
+C:\Users\Kura\Downloads\Cupros-Stones-1.0\Cupros-Stones-1.0\Assemblies\KurasStones.dll
+C:\Users\Kura\Downloads\Cupros-Stones-1.0\Cupros-Stones-1.0\Source\CuprosStones\obj\Debug\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones-1.0\Kuras-Stones-1.0\Assemblies\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.csprojAssemblyReference.cache
+D:\SAVE\Rimworld\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.csproj.CoreCompileInputs.cache
+D:\SAVE\Rimworld\Kuras-Stones-1.0\Kuras-Stones-1.0\Source\KurasStones\obj\Debug\KurasStones.dll

@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Furniture Expanded - Architect</li>
+	</mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs</xpath>
+    <value>
+	
+  <!-- Cobblestone Floor -->
+
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorAndesite</defName>
+    <label>andesite cobblestone floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorAnorthosite</defName>
+    <label>anorthosite cobblestone floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorBasalt</defName>
+    <label>basalt cobblestone floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorBlueschist</defName>
+    <label>blueschist cobblestone floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorChalk</defName>
+    <label>chalk cobblestone floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorCharnockite</defName>
+    <label>charnockite cobblestone floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorCreoleMarble</defName>
+    <label>creole marble cobblestone floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorDacite</defName>
+    <label>dacite cobblestone floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorDunite</defName>
+    <label>vibrant dunite cobblestone floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorEmperadordark</defName>
+    <label>emperador dark cobblestone floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorEtowahMarble</defName>
+    <label>etowah marble cobblestone floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorGabbro</defName>
+    <label>gabbro cobblestone floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorGreenSchist</defName>
+    <label>greenSchist cobblestone floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorJaspillite</defName>
+    <label>jaspillite cobblestone floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorLepidolite</defName>
+    <label>lepidolite cobblestone floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorLherzolite</defName>
+    <label>lherzolite cobblestone floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorLignite</defName>
+    <label>lignite cobblestone floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorMigmatite</defName>
+    <label>migmatite cobblestone floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorMonzonite</defName>
+    <label>monzonite cobblestone floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorObsidian</defName>
+    <label>obsidian cobblestone floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorRhyolite</defName>
+    <label>rhyolite cobblestone floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorScoria</defName>
+    <label>scoria cobblestone floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorSerpentinite</defName>
+    <label>serpentinite cobblestone floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorSiltstone</defName>
+    <label>siltstone cobblestone floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorSovite</defName>
+    <label>sovite cobblestone floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="CobblestoneBase">
+    <defName>VFEArch_CobblestoneFloorThometzekite</defName>
+    <label>thometzekite cobblestone floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  <!-- Polished Stone -->
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorAndesite</defName>
+    <label>andesite polished stone floor</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorAnorthosite</defName>
+    <label>anorthosite polished stone floor</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorBasalt</defName>
+    <label>basalt polished stone floor</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorBlueschist</defName>
+    <label>blueschist polished stone floor</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorChalk</defName>
+    <label>chalk polished stone floor</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorCharnockite</defName>
+    <label>charnockite polished stone floor</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorCreoleMarble</defName>
+    <label>creole marble polished stone floor</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorDacite</defName>
+    <label>dacite polished stone floor</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorDunite</defName>
+    <label>vibrant dunite polished stone floor</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorEmperadordark</defName>
+    <label>emperador dark polished stone floor</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorEtowahMarble</defName>
+    <label>etowah marble polished stone floor</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorGabbro</defName>
+    <label>gabbro polished stone floor</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorGreenSchist</defName>
+    <label>greenSchist polished stone floor</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorJaspillite</defName>
+    <label>jaspillite polished stone floor</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorLepidolite</defName>
+    <label>lepidolite polished stone floor</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorLherzolite</defName>
+    <label>lherzolite polished stone floor</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorLignite</defName>
+    <label>lignite polished stone floor</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorMigmatite</defName>
+    <label>migmatite polished stone floor</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorMonzonite</defName>
+    <label>monzonite polished stone floor</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorObsidian</defName>
+    <label>obsidian polished stone floor</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorRhyolite</defName>
+    <label>rhyolite polished stone floor</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorScoria</defName>
+    <label>scoria polished stone floor</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorSerpentinite</defName>
+    <label>serpentinite polished stone floor</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorSiltstone</defName>
+    <label>siltstone polished stone floor</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorSovite</defName>
+    <label>sovite polished stone floor</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="PolishedStoneFloorBase">
+    <defName>VFEArch_PolishedStoneFloorThometzekite</defName>
+    <label>thometzekite polished stone floor</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  <!-- Stone Slab -->
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsAndesite</defName>
+    <label>andesite slabs</label>
+    <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsAnorthosite</defName>
+    <label>anorthosite slabs</label>
+    <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsBasalt</defName>
+    <label>basalt slabs</label>
+    <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsBlueschist</defName>
+    <label>blueschist slabs</label>
+    <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsChalk</defName>
+    <label>chalk slabs</label>
+    <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsCharnockite</defName>
+    <label>charnockite slabs</label>
+    <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsCreoleMarble</defName>
+    <label>creole marble slabs</label>
+    <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsDacite</defName>
+    <label>dacite slabs</label>
+    <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsDunite</defName>
+    <label>vibrant dunite slabs</label>
+    <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsEmperadordark</defName>
+    <label>emperador dark slabs</label>
+    <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsEtowahMarble</defName>
+    <label>etowah marble slabs</label>
+    <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsGabbro</defName>
+    <label>gabbro slabs</label>
+    <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsGreenSchist</defName>
+    <label>greenSchist slabs</label>
+    <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsJaspillite</defName>
+    <label>jaspillite slabs</label>
+    <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsLepidolite</defName>
+    <label>lepidolite slabs</label>
+    <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsLherzolite</defName>
+    <label>lherzolite slabs</label>
+    <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsLignite</defName>
+    <label>lignite slabs</label>
+    <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsMigmatite</defName>
+    <label>migmatite slabs</label>
+    <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsMonzonite</defName>
+    <label>monzonite slabs</label>
+    <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsObsidian</defName>
+    <label>obsidian slabs</label>
+    <color>(30,30,30)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsRhyolite</defName>
+    <label>rhyolite slabs</label>
+    <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsScoria</defName>
+    <label>scoria slabs</label>
+    <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsSerpentinite</defName>
+    <label>serpentinite slabs</label>
+    <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsSiltstone</defName>
+    <label>siltstone slabs</label>
+    <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsSovite</defName>
+    <label>sovite slabs</label>
+    <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneSlabsBase">
+    <defName>VFEArch_SlabsThometzekite</defName>
+    <label>thometzekite slabs</label>
+    <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+  
+  
+  
+  
+  <!-- Ornate Stone -->
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeAndesite</defName>
+    <label>andesite bridge</label>
+    <color>(112,118,118)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeAnorthosite</defName>
+    <label>anorthosite bridge</label>
+    <color>(158,139,132)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeBasalt</defName>
+    <label>basalt bridge</label>
+    <color>(73,77,79)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeBlueschist</defName>
+    <label>blueschist bridge</label>
+    <color>(159,191,214)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeChalk</defName>
+    <label>chalk bridge</label>
+    <color>(220,220,220)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeCharnockite</defName>
+    <label>charnockite bridge</label>
+    <color>(141,120,79)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeCreoleMarble</defName>
+    <label>creole marble bridge</label>
+    <color>(174,211,210)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeDacite</defName>
+    <label>dacite bridge</label>
+    <color>(177,178,172)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeDunite</defName>
+    <label>vibrant dunite bridge</label>
+    <color>(153,176,110)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeEmperadordark</defName>
+    <label>emperador dark bridge</label>
+    <color>(72,46,38)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeEtowahMarble</defName>
+    <label>etowah marble bridge</label>
+    <color>(246,200,184)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeGabbro</defName>
+    <label>gabbro bridge</label>
+    <color>(82,85,66)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeGreenSchist</defName>
+    <label>greenSchist bridge</label>
+    <color>(82,98,71)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeJaspillite</defName>
+    <label>jaspillite bridge</label>
+    <color>(208,103,84)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeLepidolite</defName>
+    <label>lepidolite bridge</label>
+    <color>(124,92,111)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeLherzolite</defName>
+    <label>lherzolite bridge</label>
+    <color>(150,176,81)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeLignite</defName>
+    <label>lignite bridge</label>
+    <color>(82,72,70)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeMigmatite</defName>
+    <label>migmatite bridge</label>
+    <color>(136,146,155)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeMonzonite</defName>
+    <label>monzonite bridge</label>
+    <color>(193,184,186)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeObsidian</defName>
+    <label>obsidian bridge</label>
+    <color>(30,30,30)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeRhyolite</defName>
+    <label>rhyolite bridge</label>
+    <color>(201,159,134)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeScoria</defName>
+    <label>scoria bridge</label>
+    <color>(87,80,73)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeSerpentinite</defName>
+    <label>serpentinite bridge</label>
+    <color>(60,96,58)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeSiltstone</defName>
+    <label>siltstone bridge</label>
+    <color>(167,146,117)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksSiltstone>20</BlocksSiltstone>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeSovite</defName>
+    <label>sovite bridge</label>
+    <color>(187,181,135)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="StoneBridgeBase">
+    <defName>VFEArch_BridgeThometzekite</defName>
+    <label>thometzekite bridge</label>
+    <color>(180,213,197)</color>
+	<uiIconPath>StoneBridge/StoneBridgeGranite_MenuIcon</uiIconPath>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef>
+
+    </value>
+	</match>
+  </Operation>
+</Patch>

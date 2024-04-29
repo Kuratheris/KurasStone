@@ -1,0 +1,20 @@
+D:\SAVE\Rimworld\Kuras-Stones\Kuras-Stones\Assemblies\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csprojAssemblyReference.cache
+D:\SAVE\Rimworld\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CoreCompileInputs.cache
+D:\SAVE\Rimworld\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CopyComplete
+D:\SAVE\Rimworld\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\KurasStones.dll
+D:\SAVE\Kuras-Stones\Kuras-Stones\Assemblies\KurasStones.dll
+D:\SAVE\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csprojAssemblyReference.cache
+D:\SAVE\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CoreCompileInputs.cache
+D:\SAVE\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CopyComplete
+D:\SAVE\Kuras-Stones\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones\Assemblies\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CoreCompileInputs.cache
+D:\SAVE\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CopyComplete
+D:\SAVE\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\KurasStones.dll
+D:\SAVE\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.AssemblyReference.cache
+D:\IMPORTANT\Rimworld\Rimworld\Kuras-Stones\Assemblies\KurasStones.dll
+D:\IMPORTANT\Rimworld\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.AssemblyReference.cache
+D:\IMPORTANT\Rimworld\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CoreCompileInputs.cache
+D:\IMPORTANT\Rimworld\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\CuprosStones.csproj.CopyComplete
+D:\IMPORTANT\Rimworld\Rimworld\Kuras-Stones\Source(Cupro Tex Version)\CuprosStones\obj\Debug\KurasStones.dll
