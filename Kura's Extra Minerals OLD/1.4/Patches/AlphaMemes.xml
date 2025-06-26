@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Memes</li>
+		</mods>
+<match Class="PatchOperationSequence">
+  <operations>
+
+<!-- jewish -->
+  
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileAndesite</defName>
+    <label>jewish andesite tile</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileAnorthosite</defName>
+    <label>jewish anorthosite tile</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileBasalt</defName>
+    <label>jewish basalt tile</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileBlueschist</defName>
+    <label>jewish blueschist tile</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileChalk</defName>
+    <label>jewish chalk tile</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileCharnockite</defName>
+    <label>jewish charnockite tile</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileCreoleMarble</defName>
+    <label>jewish creole marble tile</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileDacite</defName>
+    <label>jewish dacite tile</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileDunite</defName>
+    <label>jewish dunite tile</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileEmperadordark</defName>
+    <label>jewish emperador dark tile</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileEtowahMarble</defName>
+    <label>jewish etowah marble tile</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileGabbro</defName>
+    <label>jewish gabbro tile</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileGreenSchist</defName>
+    <label>jewish greenschist tile</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileJaspillite</defName>
+    <label>jewish jaspillite tile</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileLepidolite</defName>
+    <label>jewish lepidolite tile</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileLherzolite</defName>
+    <label>jewish lherzolite tile</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileLignite</defName>
+    <label>jewish lignite tile</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileMigmatite</defName>
+    <label>jewish migmatite tile</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileMonzonite</defName>
+    <label>jewish monzonite tile</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileObsidian</defName>
+    <label>jewish obsidian tile</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileRhyolite</defName>
+    <label>jewish rhyolite tile</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileScoria</defName>
+    <label>jewish scoria tile</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileSerpentinite</defName>
+    <label>jewish serpentinite tile</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileSiltstone</defName>
+    <label>jewish siltstone tile</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileSovite</defName>
+    <label>jewish sovite tile</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishTileStoneBase">
+    <defName>AM_JewishTileThometzekite</defName>
+    <label>jewish thometzekite tile</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+
+
+  <!-- Jewish Fine -->
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileAndesite</defName>
+    <label>jewish fine andesite tile</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileAnorthosite</defName>
+    <label>jewish fine anorthosite tile</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileBasalt</defName>
+    <label>jewish fine basalt tile</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileBlueschist</defName>
+    <label>jewish fine blueschist tile</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileChalk</defName>
+    <label>jewish fine chalk tile</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileCharnockite</defName>
+    <label>jewish fine charnockite tile</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileCreoleMarble</defName>
+    <label>jewish fine creole marble tile</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileDacite</defName>
+    <label>jewish fine dacite tile</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileDunite</defName>
+    <label>jewish fine dunite tile</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileEmperadordark</defName>
+    <label>jewish fine emperador dark tile</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileEtowahMarble</defName>
+    <label>jewish fine etowah marble tile</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileGabbro</defName>
+    <label>jewish fine gabbro tile</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileGreenSchist</defName>
+    <label>jewish fine greenschist tile</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileJaspillite</defName>
+    <label>jewish fine jaspillite tile</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileLepidolite</defName>
+    <label>jewish fine lepidolite tile</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileLherzolite</defName>
+    <label>jewish fine lherzolite tile</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileLignite</defName>
+    <label>jewish fine lignite tile</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileMigmatite</defName>
+    <label>jewish fine migmatite tile</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileMonzonite</defName>
+    <label>jewish fine monzonite tile</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileObsidian</defName>
+    <label>jewish fine obsidian tile</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileRhyolite</defName>
+    <label>jewish fine rhyolite tile</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileScoria</defName>
+    <label>jewish fine scoria tile</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileSerpentinite</defName>
+    <label>jewish fine serpentinite tile</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileSiltstone</defName>
+    <label>jewish fine siltstone tile</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>20</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileSovite</defName>
+    <label>jewish fine sovite tile</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_JewishFineStoneTiles">
+    <defName>AM_JewishFineTileThometzekite</defName>
+    <label>jewish fine thometzekite tile</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+
+
+<!-- Kemetic -->
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileAndesite</defName>
+    <label>kemetic andesite tile</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileAnorthosite</defName>
+    <label>kemetic anorthosite tile</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileBasalt</defName>
+    <label>kemetic basalt tile</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileBlueschist</defName>
+    <label>kemetic blueschist tile</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileChalk</defName>
+    <label>kemetic chalk tile</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileCharnockite</defName>
+    <label>kemetic charnockite tile</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileCreoleMarble</defName>
+    <label>kemetic creole marble tile</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileDacite</defName>
+    <label>kemetic dacite tile</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileDunite</defName>
+    <label>kemetic dunite tile</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileEmperadordark</defName>
+    <label>kemetic emperador dark tile</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileEtowahMarble</defName>
+    <label>kemetic etowah marble tile</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileGabbro</defName>
+    <label>kemetic gabbro tile</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileGreenSchist</defName>
+    <label>kemetic greenschist tile</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileJaspillite</defName>
+    <label>kemetic jaspillite tile</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileLepidolite</defName>
+    <label>kemetic lepidolite tile</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileLherzolite</defName>
+    <label>kemetic lherzolite tile</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileLignite</defName>
+    <label>kemetic lignite tile</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileMigmatite</defName>
+    <label>kemetic migmatite tile</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileMonzonite</defName>
+    <label>kemetic monzonite tile</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileObsidian</defName>
+    <label>kemetic obsidian tile</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileRhyolite</defName>
+    <label>kemetic rhyolite tile</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileScoria</defName>
+    <label>kemetic scoria tile</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileSerpentinite</defName>
+    <label>kemetic serpentinite tile</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileSiltstone</defName>
+    <label>kemetic siltstone tile</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileSovite</defName>
+    <label>kemetic sovite tile</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticTileStoneBase">
+    <defName>AM_KemeticTileThometzekite</defName>
+    <label>kemetic thometzekite tile</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+	
+	
+	
+	
+	
+	
+  <!-- Kemetic Fine -->
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileAndesite</defName>
+    <label>kemetic fine andesite tile</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>20</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileAnorthosite</defName>
+    <label>kemetic fine anorthosite tile</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>20</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileBasalt</defName>
+    <label>kemetic fine basalt tile</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>20</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileBlueschist</defName>
+    <label>kemetic fine blueschist tile</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>20</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileChalk</defName>
+    <label>kemetic fine chalk tile</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>20</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileCharnockite</defName>
+    <label>kemetic fine charnockite tile</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>20</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileCreoleMarble</defName>
+    <label>kemetic fine creole marble tile</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>20</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileDacite</defName>
+    <label>kemetic fine dacite tile</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>20</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileDunite</defName>
+    <label>kemetic fine dunite tile</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>20</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileEmperadordark</defName>
+    <label>kemetic fine emperador dark tile</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>20</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileEtowahMarble</defName>
+    <label>kemetic fine etowah marble tile</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>20</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileGabbro</defName>
+    <label>kemetic fine gabbro tile</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>20</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileGreenSchist</defName>
+    <label>kemetic fine greenschist tile</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>20</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileJaspillite</defName>
+    <label>kemetic fine jaspillite tile</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>20</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileLepidolite</defName>
+    <label>kemetic fine lepidolite tile</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>20</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileLherzolite</defName>
+    <label>kemetic fine lherzolite tile</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>20</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileLignite</defName>
+    <label>kemetic fine lignite tile</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>20</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileMigmatite</defName>
+    <label>kemetic fine migmatite tile</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>20</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileMonzonite</defName>
+    <label>kemetic fine monzonite tile</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>20</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileObsidian</defName>
+    <label>kemetic fine obsidian tile</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>20</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileRhyolite</defName>
+    <label>kemetic fine rhyolite tile</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>20</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileScoria</defName>
+    <label>kemetic fine scoria tile</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>20</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileSerpentinite</defName>
+    <label>kemetic fine serpentinite tile</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>20</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileSiltstone</defName>
+    <label>kemetic fine siltstone tile</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>20</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileSovite</defName>
+    <label>kemetic fine sovite tile</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>20</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_KemeticFineStoneTiles">
+    <defName>AM_KemeticFineTileThometzekite</defName>
+    <label>kemetic fine thometzekite tile</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>20</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+	
+	
+	
+	
+<!-- Steampunk -->
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileAndesite</defName>
+    <label>steampunk andesite tile</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>4</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileAnorthosite</defName>
+    <label>steampunk anorthosite tile</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>4</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileBasalt</defName>
+    <label>steampunk basalt tile</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>4</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileBlueschist</defName>
+    <label>steampunk blueschist tile</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>4</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileChalk</defName>
+    <label>steampunk chalk tile</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>4</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileCharnockite</defName>
+    <label>steampunk charnockite tile</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>4</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileCreoleMarble</defName>
+    <label>steampunk creole marble tile</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>4</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileDacite</defName>
+    <label>steampunk dacite tile</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>4</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileDunite</defName>
+    <label>steampunk dunite tile</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>4</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileEmperadordark</defName>
+    <label>steampunk emperador dark tile</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>4</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileEtowahMarble</defName>
+    <label>steampunk etowah marble tile</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>4</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileGabbro</defName>
+    <label>steampunk gabbro tile</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>4</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileGreenSchist</defName>
+    <label>steampunk greenschist tile</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>4</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileJaspillite</defName>
+    <label>steampunk jaspillite tile</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>4</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileLepidolite</defName>
+    <label>steampunk lepidolite tile</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>4</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileLherzolite</defName>
+    <label>steampunk lherzolite tile</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>4</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileLignite</defName>
+    <label>steampunk lignite tile</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>4</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileMigmatite</defName>
+    <label>steampunk migmatite tile</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>4</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileMonzonite</defName>
+    <label>steampunk monzonite tile</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>4</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileObsidian</defName>
+    <label>steampunk obsidian tile</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>4</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileRhyolite</defName>
+    <label>steampunk rhyolite tile</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>4</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileScoria</defName>
+    <label>steampunk scoria tile</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>4</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileSerpentinite</defName>
+    <label>steampunk serpentinite tile</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>4</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileSiltstone</defName>
+    <label>steampunk siltstone tile</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>4</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileSovite</defName>
+    <label>steampunk sovite tile</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>4</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_SteampunkTileStoneBase">
+    <defName>AM_SteampunkTileThometzekite</defName>
+    <label>steampunk thometzekite tile</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>4</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+	
+	
+	
+	
+<!-- Neolithic -->
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileAndesite</defName>
+    <label>neolithic andesite packed dirt floor</label>
+        <color>(112,118,118)</color>
+    <costList>
+      <BlocksAndesite>1</BlocksAndesite>
+    </costList>
+  </TerrainDef></value>
+    </li>  
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileAnorthosite</defName>
+    <label>neolithic anorthosite packed dirt floor</label>
+        <color>(158,139,132)</color>
+    <costList>
+      <BlocksAnorthosite>1</BlocksAnorthosite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileBasalt</defName>
+    <label>neolithic basalt packed dirt floor</label>
+        <color>(73,77,79)</color>
+    <costList>
+      <BlocksBasalt>1</BlocksBasalt>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileBlueschist</defName>
+    <label>neolithic blueschist packed dirt floor</label>
+        <color>(159,191,214)</color>
+    <costList>
+      <BlocksBlueschist>1</BlocksBlueschist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileChalk</defName>
+    <label>neolithic chalk packed dirt floor</label>
+        <color>(220,220,220)</color>
+    <costList>
+      <BlocksChalk>1</BlocksChalk>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileCharnockite</defName>
+    <label>neolithic charnockite packed dirt floor</label>
+        <color>(141,120,79)</color>
+    <costList>
+      <BlocksCharnockite>1</BlocksCharnockite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileCreoleMarble</defName>
+    <label>neolithic creole marble packed dirt floor</label>
+        <color>(174,211,210)</color>
+    <costList>
+      <BlocksCreoleMarble>1</BlocksCreoleMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileDacite</defName>
+    <label>neolithic dacite packed dirt floor</label>
+        <color>(177,178,172)</color>
+    <costList>
+      <BlocksDacite>1</BlocksDacite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileDunite</defName>
+    <label>neolithic dunite packed dirt floor</label>
+        <color>(153,176,110)</color>
+    <costList>
+      <BlocksDunite>1</BlocksDunite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileEmperadordark</defName>
+    <label>neolithic emperador dark packed dirt floor</label>
+        <color>(72,46,38)</color>
+    <costList>
+      <BlocksEmperadordark>1</BlocksEmperadordark>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileEtowahMarble</defName>
+    <label>neolithic etowah marble packed dirt floor</label>
+        <color>(246,200,184)</color>
+    <costList>
+      <BlocksEtowahMarble>1</BlocksEtowahMarble>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileGabbro</defName>
+    <label>neolithic gabbro packed dirt floor</label>
+        <color>(82,85,66)</color>
+    <costList>
+      <BlocksGabbro>1</BlocksGabbro>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileGreenSchist</defName>
+    <label>neolithic greenschist packed dirt floor</label>
+        <color>(82,98,71)</color>
+    <costList>
+      <BlocksGreenSchist>1</BlocksGreenSchist>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileJaspillite</defName>
+    <label>neolithic jaspillite packed dirt floor</label>
+        <color>(208,103,84)</color>
+    <costList>
+      <BlocksJaspillite>1</BlocksJaspillite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileLepidolite</defName>
+    <label>neolithic lepidolite packed dirt floor</label>
+        <color>(124,92,111)</color>
+    <costList>
+      <BlocksLepidolite>1</BlocksLepidolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileLherzolite</defName>
+    <label>neolithic lherzolite packed dirt floor</label>
+        <color>(150,176,81)</color>
+    <costList>
+      <BlocksLherzolite>1</BlocksLherzolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileLignite</defName>
+    <label>neolithic lignite packed dirt floor</label>
+        <color>(82,72,70)</color>
+    <costList>
+      <BlocksLignite>1</BlocksLignite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileMigmatite</defName>
+    <label>neolithic migmatite packed dirt floor</label>
+        <color>(136,146,155)</color>
+    <costList>
+      <BlocksMigmatite>1</BlocksMigmatite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileMonzonite</defName>
+    <label>neolithic monzonite packed dirt floor</label>
+        <color>(193,184,186)</color>
+    <costList>
+      <BlocksMonzonite>1</BlocksMonzonite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileObsidian</defName>
+    <label>neolithic obsidian packed dirt floor</label>
+        <color>(35,35,35)</color>
+    <costList>
+      <BlocksObsidian>1</BlocksObsidian>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileRhyolite</defName>
+    <label>neolithic rhyolite packed dirt floor</label>
+        <color>(201,159,134)</color>
+    <costList>
+      <BlocksRhyolite>1</BlocksRhyolite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileScoria</defName>
+    <label>neolithic scoria packed dirt floor</label>
+        <color>(87,80,73)</color>
+    <costList>
+      <BlocksScoria>1</BlocksScoria>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileSerpentinite</defName>
+    <label>neolithic serpentinite packed dirt floor</label>
+        <color>(60,96,58)</color>
+    <costList>
+      <BlocksSerpentinite>1</BlocksSerpentinite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileSiltstone</defName>
+    <label>neolithic siltstone packed dirt floor</label>
+        <color>(167,146,117)</color>
+    <costList>
+      <BlocksSiltstone>1</BlocksSiltstone>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileSovite</defName>
+    <label>neolithic sovite packed dirt floor</label>
+        <color>(187,181,135)</color>
+    <costList>
+      <BlocksSovite>1</BlocksSovite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+	
+<li Class="PatchOperationAdd">
+     <xpath>/Defs</xpath>	
+      <value>
+	  <TerrainDef ParentName="AM_NeolithicTileStoneBase">
+    <defName>AM_NeolithicTileThometzekite</defName>
+    <label>neolithic thometzekite packed dirt floor</label>
+        <color>(180,213,197)</color>
+    <costList>
+      <BlocksThometzekite>1</BlocksThometzekite>
+    </costList>
+  </TerrainDef></value>
+    </li>
+
+	
+  </operations>
+  </match>
+	</Operation>
+</Patch>
